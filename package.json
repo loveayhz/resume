@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:visiky/resume.git"
+    "url": "git@github.com:loveayhz/resume.git"
   },
   "keywords": [
     "resume"
@@ -64,5 +64,5 @@
   "bugs": {
     "url": "https://github.com/visiky/resume/issues"
   },
-  "homepage": "https://github.com/visiky/resume#readme"
+  "homepage": "https://github.com/loveayhz/resume#readme"
 }

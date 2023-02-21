@@ -21,7 +21,7 @@ import './index.less';
 export const Page: React.FC = () => {
   const lang = getLanguage();
   const i18n = getLocale();
-  const user = getSearchObj().user || 'visiky';
+  const user = getSearchObj().user || 'loveayhz';
 
   const [, mode, changeMode] = useModeSwitcher({});
 
@@ -222,15 +222,15 @@ export const Page: React.FC = () => {
                       cursor: 'pointer',
                     }}
                     onClick={() => {
-                      const user = query.user || 'visiky';
+                      const user = query.user || 'loveayhz';
                       window.open(`https://github.com/${user}/${user}`);
                     }}
                   >
-                    {`${query.user || 'visiky'}'s resumeInfo`}
+                    {`${query.user || 'loveayhz'}'s resumeInfo`}
                   </span>
                   <span>
-                    {`（https://github.com/${query.user || 'visiky'}/${
-                      query.user || 'visiky'
+                    {`（https://github.com/${query.user || 'loveayhz'}/${
+                      query.user || 'loveayhz'
                     }/blob/${query.branch || 'master'}/resume.json）`}
                   </span>
                 </span>
